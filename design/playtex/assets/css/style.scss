@@ -389,6 +389,10 @@ body.has-top-banner {
     .call-number {
         display: inline-block;
         line-height: 60px;
+        font-size: 40px;
+        font-weight: bold;
+        color: #333;
+        @include maven();
         img {
             display: inline-block;
         }

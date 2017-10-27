@@ -265,8 +265,24 @@ a {
 }
 
 #footer {
-	padding: 45px 10px;
+	padding: 50px 10px;
 	background-color: #2b2b2b;
+	.foot-logo {
+		text-align: center;
+		margin-bottom: 30px;
+		img {
+			width: 140px;
+			display: block;
+			margin: 0 auto;
+		}
+		small {
+			font-size: 12px;
+			font-weight: 300;
+			color: #fff;
+			display: inline-block;
+			margin-top: 10px;
+		}
+	}
 	.company {
 		color: #999;
 		a {
@@ -306,7 +322,8 @@ a {
 			color: #fff;
 			font-size: 40px;
 			text-align: center;
-            font-style: italic;
+            @include maven();
+            font-weight: 500;
 		}
 	}
 	.copyright {

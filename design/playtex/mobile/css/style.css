@@ -193,8 +193,21 @@ a {
         margin-top: 10px; }
 
 #footer {
-  padding: 45px 10px;
+  padding: 50px 10px;
   background-color: #2b2b2b; }
+  #footer .foot-logo {
+    text-align: center;
+    margin-bottom: 30px; }
+    #footer .foot-logo img {
+      width: 140px;
+      display: block;
+      margin: 0 auto; }
+    #footer .foot-logo small {
+      font-size: 12px;
+      font-weight: 300;
+      color: #fff;
+      display: inline-block;
+      margin-top: 10px; }
   #footer .company {
     color: #999; }
     #footer .company a {
@@ -222,7 +235,8 @@ a {
       color: #fff;
       font-size: 40px;
       text-align: center;
-      font-style: italic; }
+      font-family: 'Maven Pro', sans-serif;
+      font-weight: 500; }
   #footer .copyright {
     margin-top: 15px; }
     #footer .copyright p {
