@@ -1331,7 +1331,8 @@ body.has-top-banner #header {
     color: #fff;
     line-height: 289px;
     letter-spacing: 6px;
-    font-family: 'Maven Pro', sans-serif; }
+    font-family: 'Maven Pro', sans-serif;
+    text-transform: uppercase; }
   .common-list .page-header .list-lnb {
     height: 70px;
     background-color: #fff; }
@@ -1968,7 +1969,8 @@ body.has-top-banner #header {
     font-size: 70px;
     color: #2b2b2b;
     font-family: 'Maven Pro', sans-serif;
-    letter-spacing: 6px; }
+    letter-spacing: 6px;
+    text-transform: uppercase; }
 .member .form-control {
   font-size: 13px;
   border: 1px solid #dfdfdf; }
@@ -2474,7 +2476,8 @@ body.has-top-banner #header {
     font-size: 70px;
     color: #2b2b2b;
     font-family: 'Maven Pro', sans-serif;
-    letter-spacing: 6px; }
+    letter-spacing: 6px;
+    text-transform: uppercase; }
 .mypage article .article-header .mypage-tab > ul {
   display: inline-block; }
   .mypage article .article-header .mypage-tab > ul > li {
@@ -4390,7 +4393,8 @@ body.has-top-banner #header {
     color: #2b2b2b;
     font-weight: 300;
     font-family: 'Maven Pro', sans-serif;
-    letter-spacing: 6px; }
+    letter-spacing: 6px;
+    text-transform: uppercase; }
     .board .page-header h2.lora span {
       font-family: 'Lora', serif; }
   .board .page-header .summary {
@@ -4911,7 +4915,8 @@ body.has-top-banner #header {
     font-size: 70px;
     color: #2b2b2b;
     font-family: 'Maven Pro', sans-serif;
-    letter-spacing: 6px; }
+    letter-spacing: 6px;
+    text-transform: uppercase; }
 .benefit article {
   padding-bottom: 200px; }
   .benefit article .paging .pagination li a {

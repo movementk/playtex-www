@@ -385,6 +385,7 @@ label {
         color: #333;
         @include maven();
         letter-spacing: 6px;
+        text-transform:uppercase;
     }
     .summary {
         font-size: 14px;
