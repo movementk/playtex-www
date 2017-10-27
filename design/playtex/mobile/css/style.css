@@ -68,7 +68,7 @@ a {
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: auto 50px;
-    background-color: #2b2b2b; }
+    background-color: #ae9e91; }
 
 #header {
   position: fixed;
@@ -4653,7 +4653,12 @@ label {
         width: 100%; }
     .about .about-playtex .article-header .title {
       padding-top: 60px;
-      padding-left: 20px; }
+      padding-left: 20px;
+      font-size: 32px;
+      font-weight: bold;
+      color: #2b2b2b;
+      line-height: 32px;
+      letter-spacing: 3px; }
       .about .about-playtex .article-header .title img {
         width: 195px; }
       .about .about-playtex .article-header .title small {
@@ -4662,6 +4667,7 @@ label {
         color: #2b2b2b;
         font-weight: 500;
         margin-top: 25px;
+        letter-spacing: 0;
         font-family: 'Maven Pro', sans-serif; }
   .about .about-playtex .article-content {
     padding-top: 23px; }
@@ -4719,8 +4725,10 @@ label {
 .about .keyword {
   padding-top: 60px;
   background-color: #eae1d5; }
-  .about .keyword .title img {
-    width: 225px; }
+  .about .keyword .title {
+    color: #fff; }
+    .about .keyword .title img {
+      width: 225px; }
   .about .keyword .target {
     padding-top: 50px;
     padding-bottom: 40px; }

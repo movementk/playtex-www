@@ -110,7 +110,7 @@ a {
 		background-repeat: no-repeat;
 		background-position: 50% 50%;
 		background-size: auto 50px;
-		background-color: #2b2b2b;
+		background-color: #ae9e91;
 	}
 }
 
@@ -6570,6 +6570,11 @@ label {
             .title {
                 padding-top: 60px;
                 padding-left: 20px;
+                font-size: 32px;
+                font-weight: bold;
+                color: #2b2b2b;
+                line-height: 32px;
+                letter-spacing: 3px;
                 img {
                     width: 195px;
                 }
@@ -6579,6 +6584,7 @@ label {
                     color: #2b2b2b;
                     font-weight: 500;
                     margin-top: 25px;
+                    letter-spacing: 0;
                     @include maven();
                 }
             }
@@ -6676,6 +6682,7 @@ label {
         padding-top: 60px;
         background-color: #eae1d5;
         .title {
+        	color: #fff;
             img {
                 width: 225px;
             }
