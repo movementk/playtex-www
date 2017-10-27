@@ -383,8 +383,8 @@ label {
     .title {
         font-size: 26px;
         color: #333;
-        font-style: italic;
-        @include playfd();
+        @include maven();
+        letter-spacing: 6px;
     }
     .summary {
         font-size: 14px;
