@@ -1771,7 +1771,7 @@ body.has-top-banner {
                 }
             }
         }
-        ul {
+        ul.row {
             clear: both;
             li {
                 &:nth-of-type(1) {
@@ -5195,11 +5195,11 @@ body.has-top-banner {
                                 border-bottom: 0;
                             }
                         }
-                        &:nth-of-type(5) {
+                        /*&:nth-of-type(5) {
                             a {
                                 border-bottom: 0;
                             }
-                        }
+                        }*/
                     }
                 }
             }

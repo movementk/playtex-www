@@ -1524,33 +1524,33 @@ body.has-top-banner #header {
             background-color: rgba(247, 247, 247, 0.6); }
     .common-list .product-list .select-box.open .btn.dropdown-toggle:after {
       content: "\E809"; }
-  .common-list .product-list ul {
+  .common-list .product-list ul.row {
     clear: both; }
-    .common-list .product-list ul li:nth-of-type(1) a {
+    .common-list .product-list ul.row li:nth-of-type(1) a {
       margin-top: 0; }
-    .common-list .product-list ul li:nth-of-type(2) a {
+    .common-list .product-list ul.row li:nth-of-type(2) a {
       margin-top: 0; }
-    .common-list .product-list ul li:nth-of-type(3) a {
+    .common-list .product-list ul.row li:nth-of-type(3) a {
       margin-top: 0; }
-    .common-list .product-list ul li:nth-of-type(3n + 1) {
+    .common-list .product-list ul.row li:nth-of-type(3n + 1) {
       clear: both; }
-    .common-list .product-list ul li a {
+    .common-list .product-list ul.row li a {
       display: block;
       margin-top: 100px;
       text-decoration: none; }
-      .common-list .product-list ul li a figure .img-responsive {
+      .common-list .product-list ul.row li a figure .img-responsive {
         width: 100% !important;
         margin: 0 auto; }
-      .common-list .product-list ul li a figure figcaption {
+      .common-list .product-list ul.row li a figure figcaption {
         width: 100%;
         margin-top: 30px;
         text-align: center; }
-        .common-list .product-list ul li a figure figcaption p {
+        .common-list .product-list ul.row li a figure figcaption p {
           font-size: 15px;
           color: #333;
           line-height: 22px;
           margin-bottom: 20px; }
-        .common-list .product-list ul li a figure figcaption strong {
+        .common-list .product-list ul.row li a figure figcaption strong {
           font-size: 18px;
           color: #333;
           font-family: 'Maven Pro', sans-serif; }
@@ -3620,16 +3620,20 @@ body.has-top-banner #header {
 
 .member-leave article {
   padding-bottom: 200px; }
-  .member-leave article .article-header .mypage-tab > ul > li:nth-of-type(1) a {
-    border-bottom: 0; }
-  .member-leave article .article-header .mypage-tab > ul > li:nth-of-type(2) a {
-    border-bottom: 0; }
-  .member-leave article .article-header .mypage-tab > ul > li:nth-of-type(3) a {
-    border-bottom: 0; }
-  .member-leave article .article-header .mypage-tab > ul > li:nth-of-type(4) a {
-    border-bottom: 0; }
-  .member-leave article .article-header .mypage-tab > ul > li:nth-of-type(5) a {
-    border-bottom: 0; }
+  .member-leave article .article-header .mypage-tab > ul > li {
+    /*&:nth-of-type(5) {
+        a {
+            border-bottom: 0;
+        }
+    }*/ }
+    .member-leave article .article-header .mypage-tab > ul > li:nth-of-type(1) a {
+      border-bottom: 0; }
+    .member-leave article .article-header .mypage-tab > ul > li:nth-of-type(2) a {
+      border-bottom: 0; }
+    .member-leave article .article-header .mypage-tab > ul > li:nth-of-type(3) a {
+      border-bottom: 0; }
+    .member-leave article .article-header .mypage-tab > ul > li:nth-of-type(4) a {
+      border-bottom: 0; }
   .member-leave article .article-content .leave-info h3 {
     font-size: 16px;
     color: #222;
