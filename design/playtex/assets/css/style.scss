@@ -822,7 +822,7 @@ body.has-top-banner {
                             background-image: url(/design/playtex/assets/images/main/line_bg01.jpg);
                     }
                     &:nth-of-type(2) {
-                            background-image: url(/design/playtex/assets/images/main/line_bg04.jpg);
+                            background-image: url(/design/playtex/assets/images/main/line_bg02.jpg);
                     }
                     &:nth-of-type(3) {
                             background-image: url(/design/playtex/assets/images/main/line_bg03.jpg);
@@ -2160,6 +2160,68 @@ body.has-top-banner {
 							}
 						}
 					}
+					.MK_optAddWrap {
+						margin-top: 20px;
+						.MK_inner-opt-cm {
+							> li {
+								overflow: hidden;
+								padding: 10px 20px;
+								border: 1px solid #eaeaea;
+								background-color: #f9f9f9;
+								text-align: right;
+								line-height: 30px;
+								.MK_p-name {
+									float: left;
+									width: 109px;
+									text-align: left;
+									font-size: 13px;
+									color: #333;
+								}
+								.MK_qty-ctrl {
+									position: relative;
+									float: left;
+									width: 115px;
+									input {
+										padding-left: 10px;
+										padding-right: 10px;
+										width: 100px;
+										height: 30px;
+										border: 1px solid #dfdfdf;
+										font-size: 13px;
+									}
+									a {
+										position: absolute;
+										width: 11px;
+										height: 9px;
+										img {
+											display: block;
+										}
+									}
+									.MK_btn-up {
+										top: 3px;
+										right: 0;
+									}
+									.MK_btn-dw {
+										bottom: 3px;
+										right: 0;
+									}
+								}
+								.MK_price {
+									font-size: 14px;
+									@include maven();
+								}
+								.MK_btn-del {
+									img {
+										margin-left: 10px;
+										margin-top: -2px;
+									}
+								}
+								& + li {
+									margin-top: 10px;
+								}
+							}
+						}
+					}
                     .product-opstion {
                         margin: 25px 0;
                         padding: 15px 100px 15px 0;
@@ -2444,6 +2506,35 @@ body.has-top-banner {
                                 .subject {
                                     
                                 }
+                            }
+                        }
+                    }
+                }
+                .review-mileage {
+                    margin-top: 60px;
+                    a {
+                        display: block;
+                        margin-bottom: 40px;
+                        figure {
+                            .img-responsive {
+                                margin: 0 auto;
+                            }
+                        }
+                    }
+                    .note-list {
+                        li {
+                            position: relative;
+                            font-size: 13px;
+                            color: #666;
+                            line-height: 26px;
+                            font-weight: 400;
+                            padding-left: 10px;
+                            &:before {
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                content: "\E807";
+                                font-family: "fontello";
                             }
                         }
                     }
@@ -7423,6 +7514,24 @@ body.has-top-banner {
                         }
                     }
                 }
+                .none-event {
+                    width: 100%;
+                    height: 556px;
+                    padding: 164px 0 163px;
+                    background-color: #fff;
+                    figure {
+                        text-align: center;
+                        img {
+                            display: inline-block;
+                        }
+                        figcaption {
+                            font-size: 20px;
+                            color: #2b2b2b;
+                            font-weight: 500;
+                            margin-top: 30px;
+                        }
+                    }
+                }
             }
         }
         &.special-discount {
@@ -7474,6 +7583,23 @@ body.has-top-banner {
                                 font-weight: 300;
                             }
                         }
+                    }
+                }
+            }
+            .coupon-summary {
+                padding-top: 20px;
+                text-align: center;
+                figure {
+                    margin-bottom: 40px;
+                    img {
+                        display: block;
+                        margin: 0 auto;
+                    }
+                    figcaption {
+                        font-size: 18px;
+                        color: #666;
+                        line-height: 30px;
+                        margin-top: 70px;
                     }
                 }
             }

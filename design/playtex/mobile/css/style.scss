@@ -110,7 +110,7 @@ a {
 		background-repeat: no-repeat;
 		background-position: 50% 50%;
 		background-size: auto 50px;
-		background-color: #ae9e91;
+		background-color: #fa5d72 !important;
 	}
 }
 
@@ -1834,7 +1834,8 @@ label {
 				bottom: 0;
 				left: 0;
 				width: 100%;
-				height: 197px;
+				//height: 197px;
+				height: 280px;
 				padding: 10px;
 				border-top: 2px solid #333;
 				background-color: #f1f1f1;
@@ -1884,10 +1885,105 @@ label {
 						}
 					}
 				}
+				.shopdetailInfoSelect {
+					height: 40px;
+					.shopdetailInfoName {
+						display: none;
+					}
+					.shopdetailInfoCont {
+						select {
+							height: 40px;
+							width: 100%;
+							border: 1px solid #ccc;
+							background-color: #fff;
+							line-height: 40px;
+							font-size: 12px;
+						}
+					}
+				}
+				.shopdetailInfoMultiSelect {
+					overflow: auto;
+					margin-top: 10px;
+					height: 120px;
+					.MK_inner-opt-cm {
+						> li {
+							overflow: hidden;
+							position: relative;
+							padding: 10px;
+							border: 1px solid #ccc;
+							background-color: #fff;
+							text-align: right;
+							& + li {
+								margin-top: 10px;
+							}
+							.MK_p-name {
+								display: block;
+								margin-bottom: 5px;
+								height: 20px;
+								line-height: 20px;
+								text-align: left;
+							}
+							.MK_qty-ctrl {
+								position: relative;
+								float: left;
+								width: 110px;
+								height: 30px;
+								border: 1px solid #ccc;
+								text-align: center;
+								input {
+									margin-left: 29px;
+									border: 0;
+									width: 50px;
+									height: 28px;
+									line-height: 28px;
+									font-size: 13px;
+									text-align: center !important;
+								}
+								a {
+									position: absolute;
+									top: 0;
+									display: block;
+									width: 29px;
+									height: 28px;
+									line-height: 28px;
+									color: #666;
+								}
+								a:nth-of-type(1) {
+									right: 0;
+									border-left: 1px solid #ccc;
+								}
+								a:nth-of-type(2) {
+									left: 0;
+									border-right: 1px solid #ccc;
+								}
+							}
+							.MK_price {
+								line-height: 30px;
+								font-size: 13px;
+								color: #333;
+								@include maven();
+							}
+							.MK_btn-del {
+								float: right;
+								line-height: 30px;
+								img {
+									margin-left: 10px;
+									width: 13px;
+									height: 13px;
+								}
+							}
+						}
+					}
+				}
 				.total {
-					margin-top: 0;
-					height: 35px;
-					border-top: 1px solid #ccc;
+					position: absolute;
+					left: 0;
+					bottom: 50px;
+					padding-left: 10px;
+					padding-right: 10px;
+					width: 100%;
+					height: 36px;
+					/*
 					dl {
 						overflow: hidden;
 						dt, dd {
@@ -1906,10 +2002,28 @@ label {
 							}
 						}
 					}
+					*/
+					> p {
+						border-top: 1px solid #ccc;
+						text-align: right;
+						line-height: 35px;
+						font-size: 12px;
+						color: #333;
+						.MK_txt-total {
+							float: left;
+						}
+						#MK_p_total {
+							@include maven();
+							font-size: 14px;
+						}
+					}
 				}
 				.btns {
-					margin-left: -5px;
-					margin-right: -5px;
+					position: absolute;
+					left: 0;
+					bottom: 10px;
+					padding-left: 5px;
+					padding-right: 5px;
 					ul {
 						display: table;
 						content: " ";
@@ -1974,6 +2088,9 @@ label {
 							color: #fff;
 						}
 					}
+				}
+				&.hidden {
+					bottom: -67px;
 				}
 			}
         }
@@ -5132,6 +5249,21 @@ label {
                         &.join-coupon {
                             margin-bottom: 20px;
                         }
+                        &.none-coupon {
+                            background-color: #fff;
+                            padding: 80px;
+                            figure {
+                                .img-responsive {
+                                    margin: 0 auto;
+                                }
+                                figcaption {
+                                    font-size: 14px;
+                                    color: #2b2b2b;
+                                    font-weight: 500;
+                                    margin-top: 15px;
+                                }
+                            }
+                        }
                     }
                 }
             }
@@ -5193,6 +5325,21 @@ label {
                             }
                             
                         }
+                    }
+                }
+                .coupon-summary {
+                    padding: 30px 0 40px;
+                    .figure {
+                        padding: 0 60px;
+                        .img-responsive {
+                            margin: 0 auto;
+                        }
+                    }
+                    .details {
+                        font-size: 15px;
+                        color: #666;
+                        line-height: 18px;
+                        margin-top: 30px;
                     }
                 }
             }
